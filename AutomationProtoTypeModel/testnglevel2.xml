@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+	<test name="Test">
+		<classes>
+			<class name="com.sgtesting.parameterized.CreateuserScenario"></class>
+			<class name="com.sgtesting.parameterized.CreateuserScenario" />
+			<class name="com.sgtesting.parameterized.ModifyCustomer" />
+			<class name="com.sgtesting.parameterized.ModifyUser" />
+			<class name="com.sgtesting.parameterized.CreateTask" />
+			<class name="com.sgtesting.parameterized.CreateCustomer" />
+			<class name="com.sgtesting.parameterized.CreateProject" />
+		</classes>
+	</test>
+</suite> 
+    

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-04T09:00:50 IST" name="Default suite" finished-at="2022-08-04T09:01:22 IST" duration-ms="31700">
+    <groups>
+    </groups>
+    <test started-at="2022-08-04T09:00:50 IST" name="Default test" finished-at="2022-08-04T09:01:22 IST" duration-ms="31700">
+      <class name="com.sgtesting.parameterized.CreateCustomer">
+        <test-method signature="openbrowser(java.lang.String,java.lang.String)[pri:1, instance:com.sgtesting.parameterized.CreateCustomer@3bf9ce3e]" started-at="2022-08-04T09:00:50 IST" name="openbrowser" data-provider="getcredentials" finished-at="2022-08-04T09:00:53 IST" duration-ms="2670" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[webdriver.chrome.driver]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[C:\EXAMPLE\ExampleAutomation\AutomationProtoTypeModel\Library\Drivers\chromedriver.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method signature="navigate(java.lang.String)[pri:2, instance:com.sgtesting.parameterized.CreateCustomer@3bf9ce3e]" started-at="2022-08-04T09:00:53 IST" name="navigate" data-provider="getCredentials11" finished-at="2022-08-04T09:00:57 IST" duration-ms="4694" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.sgtesting.parameterized.CreateCustomer@3bf9ce3e]" started-at="2022-08-04T09:00:57 IST" name="login" data-provider="getCredentials" finished-at="2022-08-04T09:01:05 IST" duration-ms="7345" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="minimizeflyoutwindow()[pri:4, instance:com.sgtesting.parameterized.CreateCustomer@3bf9ce3e]" started-at="2022-08-04T09:01:05 IST" name="minimizeflyoutwindow" finished-at="2022-08-04T09:01:07 IST" duration-ms="2106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizeflyoutwindow -->
+        <test-method signature="createcustomer(java.lang.String,java.lang.String)[pri:5, instance:com.sgtesting.parameterized.CreateCustomer@3bf9ce3e]" started-at="2022-08-04T09:01:07 IST" name="createcustomer" data-provider="getCredentials1" finished-at="2022-08-04T09:01:18 IST" duration-ms="11396" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Customer1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Real time customer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcustomer -->
+        <test-method signature="logout()[pri:6, instance:com.sgtesting.parameterized.CreateCustomer@3bf9ce3e]" started-at="2022-08-04T09:01:18 IST" name="logout" finished-at="2022-08-04T09:01:22 IST" duration-ms="3323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="exit()[pri:7, instance:com.sgtesting.parameterized.CreateCustomer@3bf9ce3e]" started-at="2022-08-04T09:01:22 IST" name="exit" finished-at="2022-08-04T09:01:22 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- com.sgtesting.parameterized.CreateCustomer -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
