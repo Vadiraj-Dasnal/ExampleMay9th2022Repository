@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="testcases">
+	<test name="Scenerios">
+		<classes>
+			<class name="com.sgtesting.softassertion.SACreateProject" />
+			<class name="com.sgtesting.softassertion.SAModifyProject" />
+			<class name="com.sgtesting.softassertion.SAModifyCustomer" />
+		</classes>
+	</test>
+</suite> 
